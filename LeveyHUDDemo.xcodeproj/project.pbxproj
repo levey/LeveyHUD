@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3E656614AD87A500D00604 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E656514AD87A500D00604 /* UIKit.framework */; };
+		5C3E656814AD87A500D00604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E656714AD87A500D00604 /* Foundation.framework */; };
+		5C3E656A14AD87A500D00604 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E656914AD87A500D00604 /* CoreGraphics.framework */; };
+		5C3E657014AD87A500D00604 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E656E14AD87A500D00604 /* InfoPlist.strings */; };
+		5C3E657214AD87A500D00604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E657114AD87A500D00604 /* main.m */; };
+		5C3E657614AD87A500D00604 /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E657514AD87A500D00604 /* LNAppDelegate.m */; };
+		5C3E657914AD87A500D00604 /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E657814AD87A500D00604 /* LNViewController.m */; };
+		5C3E657C14AD87A500D00604 /* LNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E657A14AD87A500D00604 /* LNViewController.xib */; };
+		5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658414AD87AF00D00604 /* LeveyHUD.m */; };
+		5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */; };
+		5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C3E656114AD87A500D00604 /* LeveyHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeveyHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3E656514AD87A500D00604 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C3E656714AD87A500D00604 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C3E656914AD87A500D00604 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C3E656D14AD87A500D00604 /* LeveyHUDDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeveyHUDDemo-Info.plist"; sourceTree = "<group>"; };
+		5C3E656F14AD87A500D00604 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C3E657114AD87A500D00604 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C3E657314AD87A500D00604 /* LeveyHUDDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeveyHUDDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5C3E657414AD87A500D00604 /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		5C3E657514AD87A500D00604 /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		5C3E657714AD87A500D00604 /* LNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNViewController.h; sourceTree = "<group>"; };
+		5C3E657814AD87A500D00604 /* LNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNViewController.m; sourceTree = "<group>"; };
+		5C3E657B14AD87A500D00604 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LNViewController.xib; sourceTree = "<group>"; };
+		5C3E658314AD87AF00D00604 /* LeveyHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUD.h; sourceTree = "<group>"; };
+		5C3E658414AD87AF00D00604 /* LeveyHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUD.m; sourceTree = "<group>"; };
+		5C3E658514AD87AF00D00604 /* LeveyHUDBottomMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDBottomMask.h; sourceTree = "<group>"; };
+		5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDBottomMask.m; sourceTree = "<group>"; };
+		5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDTopMask.h; sourceTree = "<group>"; };
+		5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDTopMask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3E655E14AD87A500D00604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E656614AD87A500D00604 /* UIKit.framework in Frameworks */,
+				5C3E656814AD87A500D00604 /* Foundation.framework in Frameworks */,
+				5C3E656A14AD87A500D00604 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3E655614AD87A500D00604 = {
+			isa = PBXGroup;
+			children = (
+				5C3E656B14AD87A500D00604 /* LeveyHUDDemo */,
+				5C3E656414AD87A500D00604 /* Frameworks */,
+				5C3E656214AD87A500D00604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3E656214AD87A500D00604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E656114AD87A500D00604 /* LeveyHUDDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C3E656414AD87A500D00604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E656514AD87A500D00604 /* UIKit.framework */,
+				5C3E656714AD87A500D00604 /* Foundation.framework */,
+				5C3E656914AD87A500D00604 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3E656B14AD87A500D00604 /* LeveyHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E658214AD87AF00D00604 /* LeveyHUD */,
+				5C3E657414AD87A500D00604 /* LNAppDelegate.h */,
+				5C3E657514AD87A500D00604 /* LNAppDelegate.m */,
+				5C3E657714AD87A500D00604 /* LNViewController.h */,
+				5C3E657814AD87A500D00604 /* LNViewController.m */,
+				5C3E657A14AD87A500D00604 /* LNViewController.xib */,
+				5C3E656C14AD87A500D00604 /* Supporting Files */,
+			);
+			path = LeveyHUDDemo;
+			sourceTree = "<group>";
+		};
+		5C3E656C14AD87A500D00604 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E656D14AD87A500D00604 /* LeveyHUDDemo-Info.plist */,
+				5C3E656E14AD87A500D00604 /* InfoPlist.strings */,
+				5C3E657114AD87A500D00604 /* main.m */,
+				5C3E657314AD87A500D00604 /* LeveyHUDDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C3E658214AD87AF00D00604 /* LeveyHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E658314AD87AF00D00604 /* LeveyHUD.h */,
+				5C3E658414AD87AF00D00604 /* LeveyHUD.m */,
+				5C3E658514AD87AF00D00604 /* LeveyHUDBottomMask.h */,
+				5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */,
+				5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */,
+				5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */,
+			);
+			path = LeveyHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3E656014AD87A500D00604 /* LeveyHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3E657F14AD87A500D00604 /* Build configuration list for PBXNativeTarget "LeveyHUDDemo" */;
+			buildPhases = (
+				5C3E655D14AD87A500D00604 /* Sources */,
+				5C3E655E14AD87A500D00604 /* Frameworks */,
+				5C3E655F14AD87A500D00604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeveyHUDDemo;
+			productName = LeveyHUDDemo;
+			productReference = 5C3E656114AD87A500D00604 /* LeveyHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3E655814AD87A500D00604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5C3E655B14AD87A500D00604 /* Build configuration list for PBXProject "LeveyHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C3E655614AD87A500D00604;
+			productRefGroup = 5C3E656214AD87A500D00604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3E656014AD87A500D00604 /* LeveyHUDDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3E655F14AD87A500D00604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E657014AD87A500D00604 /* InfoPlist.strings in Resources */,
+				5C3E657C14AD87A500D00604 /* LNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3E655D14AD87A500D00604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E657214AD87A500D00604 /* main.m in Sources */,
+				5C3E657614AD87A500D00604 /* LNAppDelegate.m in Sources */,
+				5C3E657914AD87A500D00604 /* LNViewController.m in Sources */,
+				5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */,
+				5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */,
+				5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C3E656E14AD87A500D00604 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3E656F14AD87A500D00604 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C3E657A14AD87A500D00604 /* LNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3E657B14AD87A500D00604 /* en */,
+			);
+			name = LNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C3E657D14AD87A500D00604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C3E657E14AD87A500D00604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C3E658014AD87A500D00604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeveyHUDDemo/LeveyHUDDemo-Prefix.pch";
+				INFOPLIST_FILE = "LeveyHUDDemo/LeveyHUDDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C3E658114AD87A500D00604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeveyHUDDemo/LeveyHUDDemo-Prefix.pch";
+				INFOPLIST_FILE = "LeveyHUDDemo/LeveyHUDDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3E655B14AD87A500D00604 /* Build configuration list for PBXProject "LeveyHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3E657D14AD87A500D00604 /* Debug */,
+				5C3E657E14AD87A500D00604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3E657F14AD87A500D00604 /* Build configuration list for PBXNativeTarget "LeveyHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3E658014AD87A500D00604 /* Debug */,
+				5C3E658114AD87A500D00604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3E655814AD87A500D00604 /* Project object */;
+}
