@@ -53,7 +53,7 @@ static LeveyHUD *_sharedHUD = nil;
     {
         if (_sharedHUD == nil) 
         {
-            [[self alloc] init];
+            _sharedHUD = [[self alloc] init];
         }
     }
     return _sharedHUD;
