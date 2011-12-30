@@ -20,7 +20,7 @@ static LeveyHUD *_sharedHUD = nil;
 #pragma mark - Initialization
 - (id)init
 {
-    if (self = [super initWithFrame:[[UIScreen mainScreen] bounds]]) 
+    if (self = [super initWithFrame:[[UIScreen mainScreen] applicationFrame]]) 
     {
         self.hidden = YES;
         self.windowLevel = UIWindowLevelAlert;
@@ -108,7 +108,8 @@ static LeveyHUD *_sharedHUD = nil;
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    _label.frame = CGRectMake(0, self.center.y - 15, self.bounds.size.width, 30);
+
+    _label.frame = CGRectMake(0, self.center.y - 25.0f, self.bounds.size.width, 30);
 }
 
 
@@ -116,7 +117,7 @@ static LeveyHUD *_sharedHUD = nil;
 - (void)appearWithText:(NSString *)text
 {
     float x =  (self.bounds.size.width - [text sizeWithFont:_label.font].width)/2;
-    _spinner.frame = CGRectMake(x - 38, self.center.y - 20.0f, 40, 40);
+    _spinner.frame = CGRectMake(x - 38, self.center.y - 30.0f, 40, 40);
     _label.text = text;
     if (self.hidden == NO)
     {
