@@ -1,5 +1,5 @@
 ###About
-I create this in my own app, I think some iOS devs will like this HUD, so I bring it to here:)
+I create this in my app [PhotoString](http://itunes.apple.com/us/app/photostring/id487645953?mt=8), I think some iOS devs will like this HUD, so I bring it to here:)
 
 ###Use
 
