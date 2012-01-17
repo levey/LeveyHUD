@@ -18,6 +18,13 @@
 		5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658414AD87AF00D00604 /* LeveyHUD.m */; };
 		5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */; };
 		5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */; };
+		BEBA5FAE14C57A0F00DA6141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3E656714AD87A500D00604 /* Foundation.framework */; };
+		BEBA5FB914C57B2600DA6141 /* LeveyHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3E658314AD87AF00D00604 /* LeveyHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBA5FBA14C57B2E00DA6141 /* LeveyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658414AD87AF00D00604 /* LeveyHUD.m */; };
+		BEBA5FBB14C57B3200DA6141 /* LeveyHUDBottomMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3E658514AD87AF00D00604 /* LeveyHUDBottomMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBA5FBC14C57B3200DA6141 /* LeveyHUDBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */; };
+		BEBA5FBD14C57B3200DA6141 /* LeveyHUDTopMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBA5FBE14C57B3200DA6141 /* LeveyHUDTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,8 @@
 		5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDBottomMask.m; sourceTree = "<group>"; };
 		5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDTopMask.h; sourceTree = "<group>"; };
 		5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDTopMask.m; sourceTree = "<group>"; };
+		BEBA5FAD14C57A0F00DA6141 /* libLeveyHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLeveyHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBA5FB114C57A0F00DA6141 /* LeveyHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeveyHUD-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEBA5FAA14C57A0F00DA6141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA5FAE14C57A0F00DA6141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3E656B14AD87A500D00604 /* LeveyHUDDemo */,
+				BEBA5FAF14C57A0F00DA6141 /* LeveyHUD */,
 				5C3E656414AD87A500D00604 /* Frameworks */,
 				5C3E656214AD87A500D00604 /* Products */,
 			);
@@ -69,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3E656114AD87A500D00604 /* LeveyHUDDemo.app */,
+				BEBA5FAD14C57A0F00DA6141 /* libLeveyHUD.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +140,36 @@
 			path = LeveyHUD;
 			sourceTree = "<group>";
 		};
+		BEBA5FAF14C57A0F00DA6141 /* LeveyHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA5FB014C57A0F00DA6141 /* Supporting Files */,
+			);
+			path = LeveyHUD;
+			sourceTree = "<group>";
+		};
+		BEBA5FB014C57A0F00DA6141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA5FB114C57A0F00DA6141 /* LeveyHUD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEBA5FAB14C57A0F00DA6141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA5FB914C57B2600DA6141 /* LeveyHUD.h in Headers */,
+				BEBA5FBB14C57B3200DA6141 /* LeveyHUDBottomMask.h in Headers */,
+				BEBA5FBD14C57B3200DA6141 /* LeveyHUDTopMask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5C3E656014AD87A500D00604 /* LeveyHUDDemo */ = {
@@ -140,6 +188,23 @@
 			productName = LeveyHUDDemo;
 			productReference = 5C3E656114AD87A500D00604 /* LeveyHUDDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BEBA5FAC14C57A0F00DA6141 /* libLeveyHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBA5FB714C57A0F00DA6141 /* Build configuration list for PBXNativeTarget "libLeveyHUD" */;
+			buildPhases = (
+				BEBA5FA914C57A0F00DA6141 /* Sources */,
+				BEBA5FAA14C57A0F00DA6141 /* Frameworks */,
+				BEBA5FAB14C57A0F00DA6141 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libLeveyHUD;
+			productName = LeveyHUD;
+			productReference = BEBA5FAD14C57A0F00DA6141 /* libLeveyHUD.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				5C3E656014AD87A500D00604 /* LeveyHUDDemo */,
+				BEBA5FAC14C57A0F00DA6141 /* libLeveyHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +255,16 @@
 				5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */,
 				5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */,
 				5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA5FA914C57A0F00DA6141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA5FBA14C57B2E00DA6141 /* LeveyHUD.m in Sources */,
+				BEBA5FBC14C57B3200DA6141 /* LeveyHUDBottomMask.m in Sources */,
+				BEBA5FBE14C57B3200DA6141 /* LeveyHUDTopMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +355,30 @@
 			};
 			name = Release;
 		};
+		BEBA5FB514C57A0F00DA6141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LeveyHUD.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeveyHUD/LeveyHUD-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BEBA5FB614C57A0F00DA6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LeveyHUD.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeveyHUD/LeveyHUD-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +396,15 @@
 			buildConfigurations = (
 				5C3E658014AD87A500D00604 /* Debug */,
 				5C3E658114AD87A500D00604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBA5FB714C57A0F00DA6141 /* Build configuration list for PBXNativeTarget "libLeveyHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBA5FB514C57A0F00DA6141 /* Debug */,
+				BEBA5FB614C57A0F00DA6141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
