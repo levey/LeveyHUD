@@ -16,8 +16,7 @@
 		5C3E657914AD87A500D00604 /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E657814AD87A500D00604 /* LNViewController.m */; };
 		5C3E657C14AD87A500D00604 /* LNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E657A14AD87A500D00604 /* LNViewController.xib */; };
 		5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658414AD87AF00D00604 /* LeveyHUD.m */; };
-		5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */; };
-		5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */; };
+		5C3E658B14AD87AF00D00604 /* LeveyHUDMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E658814AD87AF00D00604 /* LeveyHUDMask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +35,8 @@
 		5C3E657B14AD87A500D00604 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LNViewController.xib; sourceTree = "<group>"; };
 		5C3E658314AD87AF00D00604 /* LeveyHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUD.h; sourceTree = "<group>"; };
 		5C3E658414AD87AF00D00604 /* LeveyHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUD.m; sourceTree = "<group>"; };
-		5C3E658514AD87AF00D00604 /* LeveyHUDBottomMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDBottomMask.h; sourceTree = "<group>"; };
-		5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDBottomMask.m; sourceTree = "<group>"; };
-		5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDTopMask.h; sourceTree = "<group>"; };
-		5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDTopMask.m; sourceTree = "<group>"; };
+		5C3E658714AD87AF00D00604 /* LeveyHUDMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyHUDMask.h; sourceTree = "<group>"; };
+		5C3E658814AD87AF00D00604 /* LeveyHUDMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyHUDMask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +110,8 @@
 			children = (
 				5C3E658314AD87AF00D00604 /* LeveyHUD.h */,
 				5C3E658414AD87AF00D00604 /* LeveyHUD.m */,
-				5C3E658514AD87AF00D00604 /* LeveyHUDBottomMask.h */,
-				5C3E658614AD87AF00D00604 /* LeveyHUDBottomMask.m */,
-				5C3E658714AD87AF00D00604 /* LeveyHUDTopMask.h */,
-				5C3E658814AD87AF00D00604 /* LeveyHUDTopMask.m */,
+				5C3E658714AD87AF00D00604 /* LeveyHUDMask.h */,
+				5C3E658814AD87AF00D00604 /* LeveyHUDMask.m */,
 			);
 			path = LeveyHUD;
 			sourceTree = "<group>";
@@ -187,8 +182,7 @@
 				5C3E657614AD87A500D00604 /* LNAppDelegate.m in Sources */,
 				5C3E657914AD87A500D00604 /* LNViewController.m in Sources */,
 				5C3E658914AD87AF00D00604 /* LeveyHUD.m in Sources */,
-				5C3E658A14AD87AF00D00604 /* LeveyHUDBottomMask.m in Sources */,
-				5C3E658B14AD87AF00D00604 /* LeveyHUDTopMask.m in Sources */,
+				5C3E658B14AD87AF00D00604 /* LeveyHUDMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +292,7 @@
 				5C3E658114AD87A500D00604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

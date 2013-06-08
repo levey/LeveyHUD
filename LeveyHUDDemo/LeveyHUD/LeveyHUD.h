@@ -5,15 +5,16 @@
 //  Created by Levey on 11/28/11.
 //  Copyright (c) 2011 lunaapp.com. All rights reserved.
 //
+//  Amend by so898 on 20/12/2012
+//  Copyright (c) 2012 R³ Studio. All rights reserved.
 
 #import <UIKit/UIKit.h>
-@class LeveyHUDTopMask, LeveyHUDBottomMask;
+@class LeveyHUDMask;
 @interface LeveyHUD : UIWindow
 {
-    UIActivityIndicatorView *_spinner;
     UILabel *_label;
-    LeveyHUDTopMask *_topMask;
-    LeveyHUDBottomMask *_bottomMask;
+    LeveyHUDMask *_topMask;
+    LeveyHUDMask *_bottomMask;
 }
 
 + (id)sharedHUD;
