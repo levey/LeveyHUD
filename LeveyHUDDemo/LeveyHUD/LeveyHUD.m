@@ -34,14 +34,15 @@ static LeveyHUD *_sharedHUD = nil;
         _label.font = [UIFont boldSystemFontOfSize:16.0f];
         [self addSubview:_label];
         
-        _topMask = [[LeveyHUDMask alloc] initWithFrame:CGRectMake(0, -30, 320, 226)];
+        CGFloat maskHeight = ([[UIScreen mainScreen] bounds].size.height - MASKOFFSET ) / 2;
+        _topMask = [[LeveyHUDMask alloc] initWithFrame:CGRectMake(0, -MASKOFFSET, 320, maskHeight)];
         _topMask.hidden = YES;
         [self addSubview:_topMask];
-        _bottomMask = [[LeveyHUDMask alloc] initWithFrame:CGRectMake(0, 284, 320, 226.0f)];
+        
+        _bottomMask = [[LeveyHUDMask alloc] initWithFrame:CGRectMake(0, maskHeight + MASKOFFSET * 2, 320, maskHeight)];
         _bottomMask.transform = CGAffineTransformMakeRotation(180 *M_PI / 180.0);
         _bottomMask.hidden = YES;
         [self addSubview:_bottomMask];
-        
     }
     return  self;
 }
